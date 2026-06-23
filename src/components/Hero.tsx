@@ -1,5 +1,5 @@
 import { FadeIn } from './FadeIn';
-import { Mail, Download } from 'lucide-react';
+import { Download } from 'lucide-react';
 
 export default function Hero() {
   return (
