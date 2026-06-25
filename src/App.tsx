@@ -56,13 +56,13 @@ export default function App() {
             <h2 className="text-3xl font-bold mb-6">Let's build something<br/>worth remembering.</h2>
             <p className="text-text-muted mb-8 text-lg">Open to backend engineering roles, interesting projects, and conversations about systems design and AI-assisted development.</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="mailto:hello@example.com" className="bg-surface border border-border hover:border-accent hover:text-text text-text-muted px-6 py-3 rounded-lg transition-all flex items-center gap-2 text-sm font-medium">
+              <a href="mailto:hk231103@gmail.com" className="bg-surface border border-border hover:border-accent hover:text-text text-text-muted px-6 py-3 rounded-lg transition-all flex items-center gap-2 text-sm font-medium">
                 Email Me
               </a>
-              <a href="#" className="bg-surface border border-border hover:border-accent hover:text-text text-text-muted px-6 py-3 rounded-lg transition-all flex items-center gap-2 text-sm font-medium">
+              <a href="https://github.com/HRS-K23" target="_blank" rel="noopener noreferrer" className="bg-surface border border-border hover:border-accent hover:text-text text-text-muted px-6 py-3 rounded-lg transition-all flex items-center gap-2 text-sm font-medium">
                 GitHub
               </a>
-              <a href="#" className="bg-surface border border-border hover:border-accent hover:text-text text-text-muted px-6 py-3 rounded-lg transition-all flex items-center gap-2 text-sm font-medium">
+              <a href="https://linkedin.com/in/hrs-k23" target="_blank" rel="noopener noreferrer" className="bg-surface border border-border hover:border-accent hover:text-text text-text-muted px-6 py-3 rounded-lg transition-all flex items-center gap-2 text-sm font-medium">
                 LinkedIn
               </a>
             </div>

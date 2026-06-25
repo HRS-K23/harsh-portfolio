@@ -62,7 +62,7 @@ export default function Hero() {
 
         <FadeIn delay={0.2} className="relative">
           <div className="w-56 h-56 md:w-64 md:h-64 rounded-full bg-surface-2 border-2 border-border flex items-center justify-center relative overflow-hidden shadow-[0_0_60px_rgba(59,130,246,0.12)]">
-            <img src="/profile.jpg" alt="Harsh Kumar" className="w-full h-full object-cover" />
+            <img src="/profile-pic.jpg" alt="Harsh Kumar" className="w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full bg-bg/80 text-[10px] text-text-faint text-center py-1 font-mono">
               Harsh Kumar
             </div>
