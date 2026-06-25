@@ -111,14 +111,14 @@ function MiniCard({ project, onClick }: { project: Project; onClick: () => void 
     <div
       onClick={onClick}
       className="relative bg-surface border border-border rounded-xl p-6 cursor-pointer
-                 hover:border-accent/30 transition-all duration-200 flex flex-col min-h-[160px]
+                 hover:border-accent/30 transition-all duration-200 flex flex-col h-[180px]
                  group"
     >
       <div className={`font-mono text-[10px] tracking-widest uppercase mb-3 ${project.catColor}`}>
         {project.cat}
       </div>
       <h3 className="font-bold text-lg text-text mb-2">{project.title}</h3>
-      <p className="text-text-muted text-sm leading-relaxed flex-1">{project.shortDesc}</p>
+      <p className="text-text-muted text-sm leading-relaxed line-clamp-3">{project.shortDesc}</p>      
       <span className="absolute bottom-5 right-5 text-border group-hover:text-accent transition-colors text-lg">
         ↗
       </span>
